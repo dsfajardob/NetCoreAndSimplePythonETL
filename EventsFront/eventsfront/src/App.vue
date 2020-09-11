@@ -35,10 +35,21 @@
 
     
     <v-main>
-      <button v-on:click="Alertar('El Form no se puede enviar aun.', $event)">
-        Enviar
-      </button> 
 
+       <div class="my-2">
+          <v-btn @click="Alertar()" large color="primary">Get Visitors</v-btn>
+        </div>
+
+        <div id="app">
+          <v-app id="inspire">
+            <v-data-table
+              :headers="headers"
+              :items="desserts"
+              :items-per-page="5"
+              class="elevation-1"
+            ></v-data-table>
+          </v-app>
+        </div>
 
       <v-container 
         class="fill-height"
@@ -81,16 +92,13 @@
 <script>
 import Axios from 'axios';
 
+
 window.axios = require('axios');
-  function send (message, event) {
-    // ahora tenemos acceso al evento nativo.
-    if (event) event.preventDefault()
-    alert(message);
+  function send () {
     Axios.get('https://localhost:44390/api/Visitors')
     .then((response)=> {
-      console.log(response);
+      console.log(response.data);
     });
-    
   }
 
   export default {
@@ -99,7 +107,27 @@ window.axios = require('axios');
     },
     data: () => ({
       drawer: null,
+      headers: [
+        {
+          text: 'CC',
+          align: 'start',
+          sortable: false,
+          value: 'cedula',
+        },
+        { text: 'Email', value: 'email' },
+        { text: 'Nombre', value: 'nombres' },
+        { text: 'Telofono', value: 'telefono' },
+      ],
+      desserts: []
+      
     }),
+    created(){
+        Axios.get('https://localhost:44390/api/Visitors')
+    .then((response)=> {
+      console.log(response.data);
+      this.desserts = response.data;
+    });
+      },
     methods: {
   Alertar: send
 }
