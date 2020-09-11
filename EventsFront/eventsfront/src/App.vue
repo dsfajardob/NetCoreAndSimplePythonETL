@@ -10,7 +10,7 @@
             <v-icon>mdi-home</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Visitas</v-list-item-title>
+            <v-list-item-title>Inicio</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         
