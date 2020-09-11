@@ -8,7 +8,6 @@ def menu():
     except:
         print("Oops it seems that you dont enter a number")
         return
-
     if option in options:
        return options[option]
     else:
@@ -41,20 +40,20 @@ def DataFrames(files,option):
     else:
         for key in files:
            dataFrames.append(pd.read_csv(key, usecols=files[key]))
-    #mergeColum = input('Please enter the name of the colum to join the two files\n')
-    mergeColum = 'COD PRODUCTO'
+    mergeColum = input('Please enter the name of the colum to join the two files\n')
+    #mergeColum = 'COD PRODUCTO'
     data = pd.merge(dataFrames[0], dataFrames[1], how='inner' )
     data = data.drop_duplicates(subset=[mergeColum])
     return data
 
 
 def operations(data):
-    #col1 = input('please enter the 1 colum to operate\n')
-    #col2 = input('please enter the 2 colum to operate\n')
-    #operation = input('please enter the option of the operation 1.Sum \n2.Subtraction \n3.Mean \n')
-    col1 = 'UNIDADES'
-    col2 = 'COD TQ'
-    operation = '3'
+    col1 = input('please enter the 1 colum to operate\n')
+    col2 = input('please enter the 2 colum to operate\n')
+    operation = input('please enter the option of the operation 1.Sum \n2.Subtraction \n3.Mean \n')
+    #col1 = 'UNIDADES'
+    #col2 = 'COD TQ'
+    #operation = '3'
     if operation == '1':
         data['operacion'] = data[col1] + data[col2]
         return (True,data)
@@ -70,19 +69,11 @@ def operations(data):
 
 if __name__ == '__main__':
     filesToRead = 2
-    files = {}
-    option = '.xlsx'
-    files = {'0. El Pueblo.xlsx': ['COD PRODUCTO', 'DESCRIPCIÓN', 'UNIDADES'], 'CODIGOS_TQ.xlsx': ['COD PRODUCTO', 'COD TQ']}
+    option = menu()
+    #option = '.xlsx'
+    files = readNamesAndColums(option, filesToRead)
+    #files = {'0. El Pueblo.xlsx': ['COD PRODUCTO', 'DESCRIPCIÓN', 'UNIDADES'], 'CODIGOS_TQ.xlsx': ['COD PRODUCTO', 'COD TQ']}
     newData =  DataFrames(files, option)
     done, newData = operations(newData)
     if done:
         newData.to_excel('output1.xlsx')
-
-
-
-    #while(True):
-        
-        #option = menu()
-        #if option == False:
-        #    break
-        #files = readNamesAndColums(option, filesToRead)
