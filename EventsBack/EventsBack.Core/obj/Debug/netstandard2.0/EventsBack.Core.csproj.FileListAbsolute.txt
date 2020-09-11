@@ -1,0 +1,9 @@
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\bin\Debug\netstandard2.0\EventsBack.Core.deps.json
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\bin\Debug\netstandard2.0\EventsBack.Core.dll
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\bin\Debug\netstandard2.0\EventsBack.Core.pdb
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.AssemblyInfoInputs.cache
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.AssemblyInfo.cs
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.csproj.CoreCompileInputs.cache
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.dll
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.pdb
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Core\obj\Debug\netstandard2.0\EventsBack.Core.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Ok3Y+mBmOKXDyN8TjMRGu12ttJwqTU/r09j5h9edED4rtNYMm63alalsJDvN4VDBxfVnNqEmCIyVCXjpo8bjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\davsa\\source\\repos\\EventsBack\\EventsBack.Core\\EventsBack.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\davsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\davsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

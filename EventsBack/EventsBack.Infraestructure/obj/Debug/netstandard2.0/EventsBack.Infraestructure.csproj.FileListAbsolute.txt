@@ -1,0 +1,12 @@
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\bin\Debug\netstandard2.0\EventsBack.Infraestructure.deps.json
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\bin\Debug\netstandard2.0\EventsBack.Infraestructure.dll
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.AssemblyInfo.cs
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.csprojAssemblyReference.cache
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\bin\Debug\netstandard2.0\EventsBack.Infraestructure.pdb
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.dll
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.pdb
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\bin\Debug\netstandard2.0\EventsBack.Core.dll
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\bin\Debug\netstandard2.0\EventsBack.Core.pdb
+C:\Users\davsa\source\repos\EventsBack\EventsBack.Infraestructure\obj\Debug\netstandard2.0\EventsBack.Infraestructure.csproj.CopyComplete
